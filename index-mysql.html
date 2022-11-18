@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+          
+<head>
+          
+    <title>Learn SQL</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="index-html.css" rel="stylesheet">
+            
+</head>
+    <body>
+        <nav>
+            <div class="navbar">
+                <i class='bx bx-menu' ></i>
+                <div class="logo"><a href="#"><span>IT</span>Develop</a> </div>
+                    <div class="nav-links">
+                        <div class="sidebar-logo">
+                            <span class="logo_name"><span>IT</span>Develop</span>
+                            <i class='bx bx-x'></i>
+                        </div>
+                            <ul class="links">
+                                <li><a href="index-ar.html">Home</a></li>
+                                  <li><a href="index-ar.html">Explore</a></li>
+                                  <li>
+                                      <a href="#">Tutorials</a>
+                                      <i class="bx bxs-chevrons-down arrow htmlcss-arrow"></i>
+                                      <ul class="htmlCss-sub-menu sub-menu">
+                                          <li><a href="index-html.html">HTML</a></li>
+                                          <li><a href="index-css.html">CSS</a></li>
+                                          <li><a href="index-javascript.html">JAVASCRIPT</a></li>
+                                          
+                                          <li class="more">
+                              
+                                              <a href="#">More</a>
+                                              <i class="bx bxs-chevrons-right arrow more-arrow"></i>
+                                              <ul class="more-sub-menu sub-menu">
+                                                <li><a href="index-php.html">PHP</a></li>
+                                                <li><a href="index-bootstrap.html">BOOTSTRAP</a></li>
+                                                <li><a href="index-jquery.html">JQUERY</a></li>
+                                                <li><a href="index-reactjs.html">React.js</a></li>
+                                                <li><a href="index-mysql.html">MYSQL</a></li>
+                                                <li><a href="index-python.html">PYTHON</a></li>
+                                              </ul>
+                                          </li>
+                                      </ul>
+                                  </li>
+                                <li><a href="index-about-us.html">About</a></li>
+                            <li><a href="#footer">Follow</a></li>
+                            <img src="moon.png" id="icon" alt="dark-mode">
+
+                                  
+                                  <!--<li>
+                                      <a href="#">More</a>
+                                      <i class="bx bxs-chevrons-down arrow htmlcss-arrow"></i>
+                                      <ul class="htmlCss-sub-menu sub-menu">
+                                          <li><a href="#">HTML</a></li>
+                                          <li><a href="#">CSS</a></li>
+                                          <li><a href="#">JAVASCRIPT</a></li>
+                                         
+                                      </ul>
+                                  </li>-->
+                                  
+                            </ul>
+                        </div>
+                        <div class="search-box">
+                        <i class='bx bx-search'></i>
+                        <div class="input-box">
+                            <input type="text" placeholder="Search...">
+                        </div>
+                    </div>
+          
+                     
+                </div>
+            </nav>
+          
+    <script src="script.js"></script>
+
+
+
+
+    <div class="container" id="section1">
+            
+            <h1>SQL</h1>
+            <p>
+                SQL, Structured Query Language, is a programming language designed to manage data stored in these relational databases. 
+                SQL operates through simple, declarative statements. 
+                This keeps data accurate and secure, and it helps maintain the integrity of databases, regardless of size.
+            </p>
+            <p>
+                We live in a data-informed world, and there are many businesses that store their information inside large, relational databases. 
+                This makes SQL a great skill not only for data scientists and engineers, but for anyone wanting to be data-literate.
+            </p>
+
+            <p>
+                A database is a separate application that stores a collection of data. 
+                Each database has one or more distinct APIs for creating, accessing, managing, searching and replicating the data it holds.
+            </p>
+            <br>
+
+            <h2>Why Learn SQL</h2>
+            <p>
+                MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses. 
+                MySQL is developed, marketed and supported by MySQL AB, which is a Swedish company MySQL is becoming so popular because of many good reasons:</p>
+            </p>
+           
+            <p>
+                --- MySQL is released under an open-source license. So you have nothing to pay to use it.
+                <br><br>
+                --- It uses a standard form of the well-known SQL data language.
+                <br><br>
+                --- works on many operating systems and with many languages including PHP, PERL, C, C++, JAVA, etc.
+                <br><br>
+                --- A very friendly to PHP, the most appreciated language for web development.
+                <br><br>
+                --- supports large databases, up to 50 million rows or more in a table. The default file size limit for a table is 4GB, 
+                but you can increase this (if your operating system can handle it) to a theoretical limit of 8 million terabytes (TB).
+            </p>
+
+            <br>
+
+            <h3>
+                
+                <strong>Lets see a simple example of a MySQL</strong>
+                
+            </h3>
+
+            
+            <img src="mysql-img.png">
+
+            <h2>Creating a table</h2>
+
+            <p>To create a table, we use the CREATE TABLE syntax. We'll get into the details in one of the next tutorials on how to use the CREATE TABLE statement.</p>
+    
+            <p>
+                For now, in our example, we will use a very basic CREATE TABLE statement that creates a table called helloworld with one column in the table called phrase. 
+                The phrase column holds data of type TEXT, which basically means you can store text in it, as opposed to numbers, boolean values, etc.
+            </p>
+
+            <h2>Inserting data into a table</h2>
+    
+            <p>After we create a table, we can start inserting data into the table we've just created using the INSERT INTO statement.
+                We'll get into the details of how to use the INSERT INTO statement in one of the next tutorials as well.</p>
+
+            <p>
+                Data is inserted into tables on a row by row basis. We can insert a row using the INSERT INTO statement, and then update that row if we want using the UPDATE statement. 
+                But again, we'll get into updating rows in length later on.
+            </p>
+
+            <h2>Before You Begin</h2>
+
+            <p>
+                Before you begin this tutorial, you should have a basic knowledge of the information covered in our PHP and HTML tutorials.
+            </p>
+
+            <p>
+                This tutorial focuses heavily on using MySQL in a PHP environment. Many examples given in this tutorial will be useful for PHP Programmers.
+            </p>
+
+            <p>
+                We recommend you check our <a href="index-php.html">PHP Tutorial</a>  for your reference.
+            </p>
+            <br>
+
+            
+            <br><br>
+
+            <div class ="read-more">
+                <a href="https://www.w3schools.com/php/php_mysql_intro.asp" target="_blank" class="btn">Continue Learning</a>
+            </div>
+
+            <div class="back-top">
+                <a href="#section1" >Back to Top<i class='bx bx-up-arrow-alt'></i></a>
+                <br><br>
+            </div>
+
+        </div>
+
+        
+
+        <footer>
+            <div class="footer-content" id="footer">
+                <p>© 2022 ITDevelop. All rights reserved.</p>
+                <p>Follow Us</p>
+                
+                <ul class="socials">
+                    
+                    <li><a href="https://www.facebook.com/"target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/home" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.linkedin.com/"target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                </ul>
+                <p>Group Members: Mark Dowel B. Magno | Vince Sagun | Kathleen Faye Francisco </p>
+    
+            </div>
+        </footer>
+        
+        
+</body>
+</html>

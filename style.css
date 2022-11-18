@@ -1,0 +1,105 @@
+/* Universal Style */
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", Helvetica, sans-serif;
+    letter-spacing: 1px;
+
+}
+
+/* Background Image */
+.image {
+
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?cs=srgb&dl=pexels-olia-danilevich-4974912.jpg");
+
+}
+
+/* Background Overlay */
+.image-overlay {
+    
+    width: 100%;
+    height: 100vh;
+    background: rgba(3, 3, 3, 0.432);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+/* Website Text */
+h1 {
+
+    color: #eeedf8f6;
+    font-size: 6vmin;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+
+
+p {
+
+    color: #eeedf8f6;
+    text-align: center;
+    font-size: 2vmin;
+    
+}
+
+/* Banner Text */
+.banner {
+
+ 
+    width: 40%;
+    padding: 30px;
+    
+}
+
+/* Button Overlay */
+.btn {
+
+
+    color: white;
+    padding: 15px 40px 15px 40px; 
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+    border: none;
+    font-size: 100%;
+    font-style: Helvetica;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px black;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgb(85,51,255); 
+    
+    
+}
+
+.btn:hover {
+
+    background-color: rgb(124, 97, 255);
+    opacity: 0.9;
+    transition: 0.5s;
+
+
+}
+
+.btn:active {
+    opacity: 0.8;
+    position:relative;
+    top: 5px;
+}
